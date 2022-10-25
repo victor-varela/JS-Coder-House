@@ -1,0 +1,2 @@
+//Hacer un menu para el admin de la tienda que permita añadir y eliminar objetos. Hacer un log in si es admin o si el cliente
+//Usar objetos para guardar los productos. Nombre, precio, categoria, descripcion, etc

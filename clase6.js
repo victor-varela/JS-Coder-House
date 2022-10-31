@@ -31,7 +31,7 @@ console.log(numeros)
 //Ejercicio: hacer un array de objetos y que los incluya el usuario. 
 class Taza {
     constructor(nombre, color, envio, precio) {
-        this.nombre = nombre,
+            this.nombre = nombre,
             this.color = color,
             this.envio = envio,
             this.precio = precio

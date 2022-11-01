@@ -6,8 +6,7 @@ class Persona {
     }
 }
 let arrayPersona = []
-function captura(e){
-    e.preventDefault()
+function captura(){
     let nombre= document.getElementById("nombre")
     alert (nombre.value) 
     let edad= document.getElementById("edad")
@@ -28,11 +27,12 @@ let mostrar = document.getElementById("mostrar")
 let btnPersonas = document.getElementById("ver")
 
 function mostrarPersonas(array){
+    console.log("funciona")
     for(let persona of array){
-        let nuevaPersona= document.createElement("div")
-        nuevaPersona.innerHTML='<p> ${persona.Persona.nombre} tiene ${persona.Personaedad} y su numero es ${persona.telefono}</p>'
-        
+        console.log(persona.nombre)
+        console.log(persona.edad)
+        console.log(persona.telefono)
     }
 }
 btnCaptura.addEventListener("click", captura)
-btnPersonas.addEventListener("click", mostrarPersonas)
+btnPersonas.addEventListener("click", mostrarPersonas(arrayPersona))

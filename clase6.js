@@ -55,8 +55,8 @@ function cargarProducto (array){
     let envio = prompt(`Ingrese el envio del producto`)
     let precio = prompt(`Ingrese el precio del producto`)
     let tazaCreada = new Taza(nombre, color, envio, precio)
-    ArrayTaza.push(tazaCreada)
-    console.log(ArrayTaza)
+    array.push(tazaCreada)
+    console.log(array)
 }
 function menu() {
     let tipoUsuario = prompt(`Bienvenido
